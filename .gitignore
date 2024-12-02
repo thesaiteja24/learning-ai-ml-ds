@@ -1,8 +1,100 @@
-# Ignore macOS system files
-.DS_Store
-
-# Ignore Jupyter Notebook checkpoints
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Ignore virtual environment directories
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment directories
+.env/
+.venv/
 env/
+venv/
+
+# Dependency management files
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+Pipfile.lock
+
+# Jupyter configuration and runtime files
+.jupyter/
+.jupyter_lab_config/
+.jupyter_cache/
+.jupyter-runtime/
+
+# Data and output files
+*.h5
+*.csv
+*.tsv
+*.parquet
+*.json
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.sav
+*.pickle
+
+# Notebook metadata
+*.nbconvert.ipynb
+
+# Machine learning models
+*.joblib
+*.pkl
+*.model
+*.onnx
+
+# Logs and reports
+*.log
+*.out
+*.err
+
+# Temporary and backup files
+~$*
+*.tmp
+*.bak
+*.swp
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux system files
+*.~lock.*
+.Trash-*/
+
+# IDE and editor specific files
+.idea/
+.vscode/
+*.iml
+
+# Build and compiled files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Large files (optional)
+data/
+output/
+results/
+
+# Other unnecessary files
+*.crt
+*.key
+*.pem
+*.log.*
+*.gz
+*.tar
+*.zip
+*.rar
